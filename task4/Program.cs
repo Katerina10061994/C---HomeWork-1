@@ -1,23 +1,14 @@
-﻿// Console.WriteLine("Введите число a");
-// int a = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine("Введите число b");
-// int b = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine("Введите число c");
-// int c = Convert.ToInt32(Console.ReadLine());
-// int max = a;
-// if (b > max) max = b;
-// if (c > max) max = c;
-//    Console.WriteLine($"Максимальное из чисел: {max}");
-
-// Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
+﻿// Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 // 2, 3, 7 -> 7
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
-
-int a = 22;
-int b = 3;
-int c = 9;
+Console.WriteLine("Введите число a");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число b");
+int b = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число c");
+int c = Convert.ToInt32(Console.ReadLine());
 int max = a;
 if (b > max) max = b;
 if (c > max) max = c;
